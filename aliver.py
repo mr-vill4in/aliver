@@ -15,7 +15,7 @@ print(colored("######################## Twitter:@K_m_tanvir ####################
 print(colored("#--------------------------------------------------------------------#", 'yellow'))
 print(colored("#                     Domain Response Checker V.1.0                  #", 'yellow'))
 print(colored("#====================================================================#", 'yellow'))
-#url = input("URL Link = ")
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-u', help='target url', dest='url')
@@ -26,7 +26,7 @@ url = args.url
 url_file = args.url_file
 
 
-#wordlist = input("Enter Your wordlist : ")
+
 if url:
 	try:
 		get_response = req.get("https://" + url)
