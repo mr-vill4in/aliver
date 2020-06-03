@@ -31,7 +31,7 @@ if url:
 	try:
 		get_response = req.get("https://" + url)
 		Response = url
-		print(colored("[+] Url Alive -->",'green'),Response)
+		print(colored("[+] Url Alive     -->",'green'),Response)
 		f= open("link.txt","a+")
 		f.write(str(Response))
 		f.write("\n")
@@ -49,7 +49,7 @@ if url_file:
 		try:
 		    get_response = req.get("https://" + word)
 		    Response = word
-		    print(colored("[+] Url Alive -->",'green'),Response)
+		    print(colored("[+] Url Alive     -->",'green'),Response)
 		    f= open("alive.txt","a+")
 		    f.write(str(Response))
 		    f.write("\n")
