@@ -57,7 +57,7 @@ if url_file:
 		    
 
 		except req.exceptions.ConnectionError:
-		    print(colored("[-] Url Not Alive -->",'red'),Response)
+		    print(colored("[-] Url Not Alive -->",'red'),word)
 		    pass
 		
 
