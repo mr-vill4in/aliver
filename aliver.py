@@ -78,6 +78,6 @@ if url_file:
 
 		    
             except ConnectionError:
-                    print(colored("URL Not Alive ----> {} ".format(u), 'red'))
+                    print(colored(" URL Not Alive ----> {} ".format(u), 'red'))
         url_1()
 
