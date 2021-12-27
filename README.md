@@ -3,7 +3,7 @@ Domain Alive Checker
 
 #How To Use 
 
-git clone https://github.com/Tanvir0075/aliver.git
+git clone https://github.com/mr-vill4in/aliver.git
 
 cd aliver 
 
