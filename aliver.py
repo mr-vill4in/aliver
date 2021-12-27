@@ -15,7 +15,7 @@ def start():
 	print("")
 	print(colored("#====================================================================#", 'yellow'))
 	print(colored("#|||||||||||||||||||||| Develop by MR_VILLAIN |||||||||||||||||||||||#", 'yellow'))
-	print(colored("######################## Twitter:@K_m_tanvir #########################", 'yellow'))
+	print(colored("######################## Twitter:@mr_vill4in #########################", 'yellow'))
 	print(colored("#--------------------------------------------------------------------#", 'yellow'))
 	print(colored("#                     Domain Response Checker V.1.0                  #", 'yellow'))
 	print(colored("#====================================================================#", 'yellow'))
